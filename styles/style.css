@@ -108,121 +108,54 @@ White: #FFF
   margin-bottom: 15px;
   color: #00B172;
 }
-/*.green-section {
-  background-color: #00B172;
-  color: white;
-  padding: 80px 0px;
-  position: relative;
+.container {
   display: flex;
-  justify-content: center;
-  text-align: left;
-}
-.green-content {
-  background-color: #00B172;
+  align-items: center;
+  justify-content: space-between;
+  background: #1db954;
+  padding: 60px;
   color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  max-width: 1100px;
-  align-items: flex-start;
-  max-width: 1100px;
-  position: relative;
-}
-.features-title {
-  width: 40%;
-  z-index: 2;
-}
-.features-title h2 {
-  font-size: 34px;
-  margin-bottom: 20px;
-  border-bottom: 2px solid white;
-  padding-bottom: 10px;
-  display: inline-block;
-}
-.sub-features {
-  width: 45%;
-  z-index: 2;
 }
 
-.green-content h2 {
-  font-size: 34px;
-  margin-bottom: 60px;
+.left {
+  width: 30%;
+}
+
+.left h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
   border-bottom: 3px solid white;
-  padding-bottom: 10px;
   display: inline-block;
+ 
 }
 
-.sub-features h3 {
-  font-size: 24px;
-  margin-top: 25px;
-  margin-bottom: 10px;
+.left h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
 }
 
-.sub-features p {
-  font-size: 16px;
+.left p {
+  font-size: 0.95rem;
   line-height: 1.5;
 }
-.logo-fondo {
-  position: absolute;
-}
-img[alt="Spotify whitelogo"] {
-  width: 100px;
-  position: absolute;
-  top: 50px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0.1;
-  z-index: 1;
-}
 
-img[alt="Spotify App"] {
-  width: 100%;
-  max-width: 300px;
-  margin-top: 20px;
-  display: block;
-}*/
-.green-section {
-  background-color: #00B172;
-  color: white;
-  padding: 80px 0px;
-  position: relative;
+.center {
+  width: 20%;
   display: flex;
   justify-content: center;
-  text-align: left;
 }
-.green-content {
-  background-color: #00B172;
-  color: white;
+
+.center img {
+  width: 80px;
+}
+
+.right {
+  width: 30%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  max-width: 1100px;
-  align-items: flex-start;
-  max-width: 1100px;
-  position: relative;
-  text-align: left;
-}
-.green-content h2 {
-  font-size: 34px;
-  margin-bottom: 20px;
-  border-bottom: 2px solid white;
-  padding-bottom: 10px;
-  display: inline-block;
-
-}
-img[alt="Spotify whitelogo"] {
-  width: 100px;
-  position: absolute;
-  top: 50px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0.1;
-  z-index: 1;
+  justify-content: flex-end;
 }
 
-img[alt="Spotify App"] {
-  width: 100%;
-  max-width: 300px;
-  margin-top: 20px;
-  display: block;
+.right img {
+  max-width: 100%;
+  height: auto;
 }
