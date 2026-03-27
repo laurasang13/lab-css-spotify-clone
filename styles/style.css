@@ -112,50 +112,60 @@ White: #FFF
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #1db954;
-  padding: 60px;
+  background: #2ebd59; 
+  padding: 80px 60px;
   color: white;
+  overflow: hidden;
 }
 
 .left {
-  width: 30%;
+  flex: 1.2;
 }
 
 .left h1 {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
-  border-bottom: 3px solid white;
+  font-size: 38px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid white;
   display: inline-block;
- 
+  padding-bottom: 10px;
+}
+
+.info-group {
+  margin-bottom: 30px;
 }
 
 .left h3 {
-  margin-top: 0;
-  font-size: 1.2rem;
+  font-size: 24px;
+  margin-bottom: 5px;
 }
 
 .left p {
-  font-size: 0.95rem;
-  line-height: 1.5;
+  font-size: 16px;
+  opacity: 0.95;
+  max-width: 450px;
 }
 
 .center {
-  width: 20%;
+  flex: 0.5;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .center img {
-  width: 80px;
+  width: 100px;
+  margin-right: 50px; 
 }
 
 .right {
-  width: 30%;
+  flex: 1;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
 }
 
 .right img {
-  max-width: 100%;
-  height: auto;
+  max-width: 320px;
+  border-radius: 20px;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.4);
 }
